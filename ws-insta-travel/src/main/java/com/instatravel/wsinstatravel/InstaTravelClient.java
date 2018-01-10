@@ -25,7 +25,7 @@ public class InstaTravelClient extends WebServiceGatewaySupport {
         String WSAP = "1ASIWAWBNLS";
 		ServiceHandler handler = new ServiceHandler(WSAP);
         JAXBElement<GetBankType> getBank = objectFactory.createGetBank(bankType);
-
+  
 
         @SuppressWarnings({ "unchecked", "rawtypes" })
 		JAXBElement<GetBankResponseType> response = (JAXBElement)getWebServiceTemplate()
