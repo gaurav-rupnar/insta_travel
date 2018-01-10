@@ -64,6 +64,8 @@ public class InstaTravelClient extends WebServiceGatewaySupport {
 
 		// Amadeus webserice call to get flight details for all segments
 		System.out.println("Request amedues starts@ " + System.currentTimeMillis());
+		
+		
 		FareMasterPricerTravelBoardSearchReply amadeusResponse = serviceHandler.masterFligthSearch(searchReq,
 				TransactionStatusCode.NONE, TransactionFlowLinkAction.NEW);
 		System.out.println("Request amedues ends@ " + System.currentTimeMillis());

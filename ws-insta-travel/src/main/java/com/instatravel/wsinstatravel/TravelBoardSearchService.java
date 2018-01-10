@@ -69,7 +69,7 @@ public class TravelBoardSearchService {
 	 * @param uiRequest
 	 * @return
 	 * @throws Exception
-	 */
+	 */ 
 	public FlgtSrchRes flightDetails(FlgtSrchReq uiRequest) throws Exception {
 
 		// ServiceHandler will cinfigur the value in property files
